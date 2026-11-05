@@ -1,0 +1,83 @@
+EinheitMastrNummer,NameKraftwerk,NameKraftwerksblock,net_mw,EinheitBetriebsstatus_txt,DatumEndgueltigeStilllegung,in_service_2025,s46_market,cls,rule
+SEE937052769589,Kraftwerk Heyden,Heyden Block 4,875.0,Endgültig stillgelegt,2024-09-30,False,False,closed_pre_2025,MaStR final closure date
+SEE972471937317,,,800.0,Endgültig stillgelegt,2021-07-08,False,False,closed_pre_2025,MaStR final closure date
+SEE999848168525,,,800.0,Endgültig stillgelegt,2021-07-08,False,False,closed_pre_2025,MaStR final closure date
+SEE970816213751,Ibbenbüren,Ibbenbüren B,794.0,Endgültig stillgelegt,2021-07-08,False,False,closed_pre_2025,MaStR final closure date
+SEE978327902850,Westfalen,Westfalen E,763.7,Endgültig stillgelegt,2021-07-08,False,False,closed_pre_2025,MaStR final closure date
+SEE954971534470,KW Bexbach,Bexbach,726.0,In Betrieb,,True,False,out_2025,"grid reserve: Verfahrensliste 2025-03-10 (Bexbach, 1.00 of 2025) and a Kraftwerksliste reserve status"
+SEE930673793902,Bergkamen A,Block A,720.0,In Betrieb,,True,False,out_2025,"grid reserve: Verfahrensliste 2025-03-10 (Bergkamen A, 1.00 of 2025) and a Kraftwerksliste reserve status"
+SEE907162822238,Wilhelmshaven,Wilhelmshaven 1,715.0,Endgültig stillgelegt,2021-12-09,False,False,closed_pre_2025,MaStR final closure date
+SEE904194792843,KWM Block 3,Block 3,690.0,Endgültig stillgelegt,2024-04-01,False,False,closed_pre_2025,MaStR final closure date
+SEE906326984744,KW Weiher,KW Weiher 3,655.6,In Betrieb,,True,False,out_2025,"grid reserve: Verfahrensliste 2025-03-10 (Weiher 3, 1.00 of 2025) and a Kraftwerksliste reserve status"
+SEE929161243203,Staudinger,Staudinger 5,522.0,In Betrieb,,True,False,out_2025,"grid reserve: Verfahrensliste 2025-03-10 (Staudinger 5, 0.75 of 2025) and a Kraftwerksliste reserve status"
+SEE980016033738,Rheinhafen-Dampfkraftwerk,RDK 7,517.0,In Betrieb,,True,False,out_2025,"grid reserve: Verfahrensliste 2025-03-10 (RDK 7, 1.00 of 2025) and a Kraftwerksliste reserve status"
+SEE958847865460,Kraftwerk Zolling,Kraftwerk Zolling,472.0,In Betrieb,,True,False,out_2025,"grid reserve: Verfahrensliste 2025-03-10 (Zolling Block 5, 0.86 of 2025) and a Kraftwerksliste reserve status"
+SEE945908806647,Herne,H 4,435.0,In Betrieb,,True,False,out_2025,"grid reserve: Verfahrensliste 2025-03-10 (Herne 4, 1.00 of 2025) and a Kraftwerksliste reserve status"
+SEE944503176377,Heizkraftwerk Altbach/Deizisau,HKW 1,433.0,In Betrieb,,True,False,out_2025,"grid reserve: Verfahrensliste 2025-03-10 (Altbach HKW 1, 1.00 of 2025) and a Kraftwerksliste reserve status"
+SEE978389589440,Walsum,W 9,370.0,Endgültig stillgelegt,2021-07-08,False,False,closed_pre_2025,MaStR final closure date
+SEE904968236689,Kraftwerk Farge,Kraftwerk Farge,350.0,Endgültig stillgelegt,2024-04-01,False,False,closed_pre_2025,MaStR final closure date
+SEE952352206145,Scholven,Scholven B,345.0,In Betrieb,,True,False,out_2025,"grid reserve: Verfahrensliste 2025-03-10 (Kraftwerk Scholven Block B, 1.00 of 2025) and a Kraftwerksliste reserve status"
+SEE933236950972,Kraftwerk Scholven,Scholven C,345.0,In Betrieb,,True,False,out_2025,"grid reserve: Verfahrensliste 2025-03-10 (Kraftwerk Scholven Block C, 1.00 of 2025) and a Kraftwerksliste reserve status"
+SEE905554171988,Hafen,Hafen Block 6,303.0,Endgültig stillgelegt,2021-07-08,False,False,closed_pre_2025,MaStR final closure date
+SEE987838157994,KW Fenne,Fenne HKV,211.0,In Betrieb,,True,False,out_2025,"grid reserve: Verfahrensliste 2025-03-10 (Heizkraftwerk und Modellkraftwerk Völklingen, 1.00 of 2025) and a Kraftwerksliste reserve status"
+SEE919393178787,KW Fenne,Fenne MKV,179.0,In Betrieb,,True,False,out_2025,"grid reserve: Verfahrensliste 2025-03-10 (Heizkraftwerk und Modellkraftwerk Völklingen, 1.00 of 2025) and a Kraftwerksliste reserve status"
+SEE964114029633,Kraftwerk Walheim,WAL 2,148.0,Endgültig stillgelegt,2025-03-31,True,False,out_2025,MaStR final closure during 2025 (first half)
+SEE977258693776,Wilhelmshaven,Wilhelmshaven 1,140.0,Endgültig stillgelegt,2021-12-09,False,False,closed_pre_2025,MaStR final closure date
+SEE959000487536,HKW West,HKW West Block 1,138.5,Endgültig stillgelegt,2024-12-22,False,False,closed_pre_2025,MaStR final closure date
+SEE917432813484,HKW West,HKW West Block 2,138.5,Endgültig stillgelegt,2024-12-22,False,False,closed_pre_2025,MaStR final closure date
+SEE987633796220,GKH 1,GKH Block 1,136.0,Endgültig stillgelegt,2026-04-01,True,False,market,Kraftwerksliste closure year: after 2025
+SEE968847258773,Heizkraftwerk Heilbronn,HLB 5,125.0,In Betrieb,,True,False,out_2025,"grid reserve: Verfahrensliste 2025-03-10 (Heilbronn Block 5&6, 1.00 of 2025) and a Kraftwerksliste reserve status"
+SEE935086224739,Heizkraftwerk Heilbronn,HLB 6,125.0,In Betrieb,,True,False,out_2025,"grid reserve: Verfahrensliste 2025-03-10 (Heilbronn Block 5&6, 1.00 of 2025) and a Kraftwerksliste reserve status"
+SEE908048039481,HKW Reuter,Block C,124.0,Endgültig stillgelegt,2019-10-01,False,False,closed_pre_2025,MaStR final closure date
+SEE968950464368,KW Hastedt,KW Hastedt Block 15,119.0,Endgültig stillgelegt,2024-04-30,False,False,closed_pre_2025,MaStR final closure date
+SEE937157344278,Kraftwerk Walheim,WAL 1,96.0,Endgültig stillgelegt,2024-07-31,False,False,closed_pre_2025,MaStR final closure date
+SEE989054024678,Kraftwerk Scholven,Scholven FWK,70.0,Endgültig stillgelegt,2023-03-30,False,False,closed_pre_2025,MaStR final closure date
+SEE923577153439,KW I - Block 5,Block 5,68.4,Endgültig stillgelegt,2024-03-31,False,False,closed_pre_2025,MaStR final closure date
+SEE945959654273,"KW II, BI3 -T26",Block 3,62.401,Endgültig stillgelegt,2017-01-15,False,False,closed_pre_2025,MaStR final closure date
+SEE920837459195,HKW Nord,HKW Nord Generator B,61.0,Endgültig stillgelegt,2024-03-31,False,False,closed_pre_2025,MaStR final closure date
+SEE938923083674,KW I - Block 4,EV-KWI-Bl4-T14,55.56,Endgültig stillgelegt,2024-03-31,False,False,closed_pre_2025,MaStR final closure date
+SEE993408840296,KW I - EKT16,Dampfwirtschaft,45.99,Vorübergehend stillgelegt,,True,False,out_2025,"MaStR temporarily closed from before mid-2025, no resumption"
+SEE996990805407,HKW Mitte K1,HKW Mitte K1,44.5,Endgültig stillgelegt,2024-06-26,False,False,closed_pre_2025,MaStR final closure date
+SEE990438768378,HKW Flensburg,Kessel 10,32.9,Endgültig stillgelegt,2024-04-30,False,False,closed_pre_2025,MaStR final closure date
+SEE974753539035,Heizkraftwerk Pforzheim,Wirbelschichtblock,26.9,Endgültig stillgelegt,2022-05-18,False,False,closed_pre_2025,MaStR final closure date
+SEE971943692655,ST_HKW,Konventionelles Sammelschienenkraftwerk,21.645,Endgültig stillgelegt,2023-12-31,False,False,closed_pre_2025,MaStR final closure date
+SEE952266131625,KW I - KT13,Dampfwirtschaft KT13,20.514,Endgültig stillgelegt,2024-03-31,False,False,closed_pre_2025,MaStR final closure date
+SEE900073920406,HKW Neumünster,DSB2,20.365,Endgültig stillgelegt,2021-04-12,False,False,closed_pre_2025,MaStR final closure date
+SEE981220191160,HKW Oberkirch,HKW Oberkirch,18.5,Endgültig stillgelegt,2024-08-30,False,False,closed_pre_2025,MaStR final closure date
+SEE901120268069,KW I - GT11,Dampfwirtschaft GT11,18.4,Endgültig stillgelegt,2024-03-31,False,False,closed_pre_2025,MaStR final closure date
+SEE993836152862,KW I - KT7,Dampfwirtschaft KT7,17.572,Endgültig stillgelegt,2024-03-31,False,False,closed_pre_2025,MaStR final closure date
+SEE934668342441,HKW - K6 DT2,HKW - K6 DT2,17.4,Endgültig stillgelegt,2020-03-26,False,False,closed_pre_2025,MaStR final closure date
+SEE956973616802,LEV G-Kraftwerk,LEV G-Kraftwerk,17.235,Endgültig stillgelegt,2025-07-06,True,False,market,MaStR final closure in the second half of 2025
+SEE953373967701,KW I - GT9,Dampfwirtschaft GT9,15.75,Endgültig stillgelegt,2024-03-31,False,False,closed_pre_2025,MaStR final closure date
+SEE991559435767,KW I - KT5,Dampfwirtschaft KT5,15.638,Endgültig stillgelegt,2024-03-31,False,False,closed_pre_2025,MaStR final closure date
+SEE934591835126,HKW Neumünster,DSB2,14.105,Endgültig stillgelegt,2024-03-01,False,False,closed_pre_2025,MaStR final closure date
+SEE913516809497,Datteln 4,Datteln 4,1052.0,In Betrieb,,True,True,market,A73 2025 CF >= 0.10
+SEE988477355802,Grosskraftwerk Mannheim,GKM Block 9,843.0,In Betrieb,,True,True,market,"in service, Kraftwerksliste in operation"
+SEE980331579218,Rheinhafen-Dampfkraftwerk,RDK 8,834.0,In Betrieb,,True,True,market,A73 2025 CF >= 0.10
+SEE948609940009,Heizkraftwerk Heilbronn,HLB 7,778.0,In Betrieb,,True,True,out_2025,"grid reserve: Verfahrensliste 2025-03-10 (Heilbronn 7, 1.00 of 2025) and a Kraftwerksliste reserve status"
+SEE961029163353,Trianel Kohlekraftwerk Lünen,Trianel Kohlekraftwerk Lünen,746.0,In Betrieb,,True,True,market,A73 2025 CF >= 0.10
+SEE970425279599,Kraftwerk Wilhelmshaven Onyx,Kraftwerk Wilhelmhaven Onyx,726.0,In Betrieb,,True,True,market,A73 2025 CF >= 0.10
+SEE918143230942,KW Walsum,Walsum 10,725.0,In Betrieb,,True,True,market,A73 2025 CF >= 0.10
+SEE943427876363,KNG Kraftwerk Rostock,Block A,514.0,In Betrieb,,True,True,market,A73 2025 CF >= 0.10
+SEE975507584615,Grosskraftwerk Mannheim,GKM Block 8,435.0,In Betrieb,,True,True,out_2025,"grid reserve: Verfahrensliste 2025-03-10 (GKM 8, 1.00 of 2025) and a Kraftwerksliste reserve status"
+SEE988699847857,Grosskraftwerk Mannheim,GKM Block 7,425.0,In Betrieb,,True,True,out_2025,"grid reserve: Verfahrensliste 2025-03-10 (GKM 7, 1.00 of 2025) and a Kraftwerksliste reserve status"
+SEE965782597448,Heizkraftwerk Altbach/Deizisau,HKW 2,323.0,In Betrieb,,True,True,market,A73 2025 CF >= 0.10
+SEE989328541450,HKW Reuter West,Block D,282.0,In Betrieb,,True,True,market,A73 2025 CF >= 0.10
+SEE974883809046,HKW Reuter West,Block E,282.0,In Betrieb,,True,True,market,A73 2025 CF >= 0.10
+SEE909002940690,Grosskraftwerk Mannheim,GKM Block 6,255.0,In Betrieb,,True,True,market,"in service, Kraftwerksliste in operation"
+SEE987197130805,,,189.0,In Betrieb,,True,True,market,A73 2025 CF >= 0.10
+SEE960100973492,HKW Wedel Block 1,Block 1,137.0,In Betrieb,,True,True,market,A73 2025 CF >= 0.10
+SEE932928232242,,,136.0,In Betrieb,,True,True,market,"in service, Kraftwerksliste in operation"
+SEE934530018092,HKW Wedel,Block 2,116.0,In Betrieb,,True,True,market,A73 2025 CF >= 0.10
+SEE981109871657,HKW Moabit,Block A,89.0,In Betrieb,,True,True,market,"in service, Kraftwerksliste in operation"
+SEE917943562765,11WD2FFW-000203E,HKW West Block 2,61.5,In Betrieb,,True,True,market,"in service, Kraftwerksliste in operation"
+SEE915289541482,11WD2FFW-000203E,HKW West Block 3,61.5,In Betrieb,,True,True,market,"in service, Kraftwerksliste in operation"
+SEE954169155876,Heizkraftwerk-Offenbach-EVO,Heizkraftwerk-Offenbach-EVO,49.0,In Betrieb,,True,True,market,"in service, Kraftwerksliste in operation"
+SEE957285549260,HKW Flensburg,Kessel 9,32.9,In Betrieb,,True,True,market,"in service, Kraftwerksliste in operation"
+SEE976489828827,LEV G-Kraftwerk,LEV G-Kraftwerk,19.235,In Betrieb,,True,True,market,"in service, Kraftwerksliste in operation"
+SEE910161577337,,UER L57,17.097,In Betrieb,,True,True,market,"in service, Kraftwerksliste in operation"
+SEE988421065542,UER N230,UER N230,15.2,In Betrieb,,True,True,market,"in service, Kraftwerksliste in operation"
+SEE943766131437,GKS-Gemeinschaftskraftwerk Schweinfurt GmbH,GKS-Gemeinschaftskraftwerk Schweinfurt GmbH,14.2,In Betrieb,,True,True,market,"in service, Kraftwerksliste in operation"
+SEE941166182769,LEV G-Kraftwerk,LEV G-Kraftwerk,12.671,In Betrieb,,True,True,market,"in service, Kraftwerksliste in operation"
+SEE976193474983,LEV G-Kraftwerk,LEV G-Kraftwerk,12.671,In Betrieb,,True,True,market,"in service, Kraftwerksliste in operation"
+SEE956216040883,GKS-Gemeinschaftskraftwerk Schweinfurt GmbH,GKS-Gemeinschaftskraftwerk Schweinfurt GmbH,10.2,In Betrieb,,True,True,market,"in service, Kraftwerksliste in operation"

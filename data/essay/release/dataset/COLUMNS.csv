@@ -1,0 +1,91 @@
+file,column,from,origin,licence
+crosswalk_rows.csv,row,row,ours,[our licence: open point for Paul]
+crosswalk_rows.csv,source,source,ours,[our licence: open point for Paul]
+crosswalk_rows.csv,source_id,source_id,id,identifier of the publisher named in source/uid
+crosswalk_rows.csv,source_occurrence,source_occurrence,ours,[our licence: open point for Paul]
+crosswalk_rows.csv,name,name,row,CC BY 4.0 (WRI) on a WRI row; blank on an OPSD row
+crosswalk_rows.csv,lat,lat,row,CC BY 4.0 (WRI) on a WRI row; blank on an OPSD row
+crosswalk_rows.csv,lon,lon,row,CC BY 4.0 (WRI) on a WRI row; blank on an OPSD row
+crosswalk_rows.csv,fam,fam,ours,[our licence: open point for Paul]
+crosswalk_rows.csv,match_rule,method,ours,[our licence: open point for Paul]
+crosswalk_rows.csv,register_units,units,id,identifier of the publisher named in source/uid
+crosswalk_rows.csv,duplicate_of,duplicate_of,ours,[our licence: open point for Paul]
+crosswalk_rows.csv,mw,mw,row,CC BY 4.0 (WRI) on a WRI row; blank on an OPSD row
+crosswalk_rows.csv,mw_market,market,row,CC BY 4.0 (WRI) on a WRI row; blank on an OPSD row
+crosswalk_rows.csv,mw_out_2025,out_2025,row,CC BY 4.0 (WRI) on a WRI row; blank on an OPSD row
+crosswalk_rows.csv,mw_closed_pre_2025,closed_pre_2025,row,CC BY 4.0 (WRI) on a WRI row; blank on an OPSD row
+crosswalk_rows.csv,mw_duplicate,duplicate,row,CC BY 4.0 (WRI) on a WRI row; blank on an OPSD row
+crosswalk_rows.csv,mw_unknown_2025,unknown_2025,row,CC BY 4.0 (WRI) on a WRI row; blank on an OPSD row
+crosswalk_rows.csv,mw_no_register_row,no_register_row,row,CC BY 4.0 (WRI) on a WRI row; blank on an OPSD row
+crosswalk_rows.csv,share_market,share_market,ours,[our licence: open point for Paul]
+crosswalk_rows.csv,share_out_2025,share_out_2025,ours,[our licence: open point for Paul]
+crosswalk_rows.csv,share_closed_pre_2025,share_closed_pre_2025,ours,[our licence: open point for Paul]
+crosswalk_rows.csv,share_duplicate,share_duplicate,ours,[our licence: open point for Paul]
+crosswalk_rows.csv,share_unknown_2025,share_unknown_2025,ours,[our licence: open point for Paul]
+crosswalk_rows.csv,share_no_register_row,share_no_register_row,ours,[our licence: open point for Paul]
+crosswalk_units.csv,uid,uid,id,identifier of the publisher named in source/uid
+crosswalk_units.csv,source,source,ours,[our licence: open point for Paul]
+crosswalk_units.csv,EinheitMastrNummer,EinheitMastrNummer,id,identifier of the publisher named in source/uid
+crosswalk_units.csv,Kraftwerksnummer,Kraftwerksnummer,id,identifier of the publisher named in source/uid
+crosswalk_units.csv,Weic,Weic,id,identifier of the publisher named in source/uid
+crosswalk_units.csv,fam,fam,ours,[our licence: open point for Paul]
+crosswalk_units.csv,net_mw,net_mw,unit,dl-de/by-2-0 (MaStR) on a MaStR unit; blank on an OPSD unit
+crosswalk_units.csv,lat,lat,unit,dl-de/by-2-0 (MaStR) on a MaStR unit; blank on an OPSD unit
+crosswalk_units.csv,lon,lon,unit,dl-de/by-2-0 (MaStR) on a MaStR unit; blank on an OPSD unit
+crosswalk_units.csv,station,station,unit,dl-de/by-2-0 (MaStR) on a MaStR unit; blank on an OPSD unit
+crosswalk_units.csv,block,block,unit,dl-de/by-2-0 (MaStR) on a MaStR unit; blank on an OPSD unit
+crosswalk_units.csv,Ort,Ort,unit,dl-de/by-2-0 (MaStR) on a MaStR unit; blank on an OPSD unit
+crosswalk_units.csv,Inbetriebnahmedatum,Inbetriebnahmedatum,unit,dl-de/by-2-0 (MaStR) on a MaStR unit; blank on an OPSD unit
+crosswalk_units.csv,DatumEndgueltigeStilllegung,DatumEndgueltigeStilllegung,unit,dl-de/by-2-0 (MaStR) on a MaStR unit; blank on an OPSD unit
+crosswalk_units.csv,cls,cls,ours,[our licence: open point for Paul]
+crosswalk_units.csv,rule,cls_why,ours,[our licence: open point for Paul]
+crosswalk_units.csv,claimed_by,claimed_by,ours,[our licence: open point for Paul]
+crosswalk_units.csv,kwl_status,kwl_status,dropped,not written
+crosswalk_units.csv,kwl_closure_year,kwl_closure_year,dropped,not written
+crosswalk_units.csv,opsd_status,opsd_status,dropped,not written
+crosswalk_units.csv,opsd_shutdown,opsd_shutdown,dropped,not written
+crosswalk_units.csv,a73_twh_2025,a73_twh_2025,dropped,not written
+crosswalk_units.csv,a73_cf_2025,a73_cf_2025,dropped,not written
+duplicate_sites.csv,site_rows,site_rows,names,CC BY 4.0 (WRI) names; OPSD rows by id only
+duplicate_sites.csv,sources,sources,ours,[our licence: open point for Paul]
+duplicate_sites.csv,rows,rows,ours,[our licence: open point for Paul]
+duplicate_sites.csv,rows_mw,rows_mw,row,CC BY 4.0 (WRI) on a WRI row; blank on an OPSD row
+duplicate_sites.csv,register_units,register_units,ours,[our licence: open point for Paul]
+duplicate_sites.csv,register_mw,register_mw,mastr,"dl-de/by-2-0 (Bundesnetzagentur, MaStR)"
+duplicate_sites.csv,ratio,ratio,row,CC BY 4.0 (WRI) on a WRI row; blank on an OPSD row
+duplicate_sites.csv,duplicate_mw_in_table,duplicate_mw_in_table,row,CC BY 4.0 (WRI) on a WRI row; blank on an OPSD row
+duplicate_sites.csv,one_source_overlap,one_source_overlap,ours,[our licence: open point for Paul]
+duplicate_rows.csv,site,site,row,CC BY 4.0 (WRI) on a WRI row; blank on an OPSD row
+duplicate_rows.csv,row,row,ours,[our licence: open point for Paul]
+duplicate_rows.csv,source,source,ours,[our licence: open point for Paul]
+duplicate_rows.csv,source_id,source_id,id,identifier of the publisher named in source/uid
+duplicate_rows.csv,name,name,row,CC BY 4.0 (WRI) on a WRI row; blank on an OPSD row
+duplicate_rows.csv,listed_by_source_as_from,listed_by_source_as_from,row,CC BY 4.0 (WRI) on a WRI row; blank on an OPSD row
+duplicate_rows.csv,mw,mw,row,CC BY 4.0 (WRI) on a WRI row; blank on an OPSD row
+duplicate_rows.csv,match_rule,method,ours,[our licence: open point for Paul]
+duplicate_rows.csv,duplicate_mw,duplicate_mw,row,CC BY 4.0 (WRI) on a WRI row; blank on an OPSD row
+duplicate_rows.csv,register_units,units,id,identifier of the publisher named in source/uid
+duplicate_rows.csv,register_units_text,register_units,dropped,not written
+unresolved_rows.csv,row,row,ours,[our licence: open point for Paul]
+unresolved_rows.csv,name,name,row,CC BY 4.0 (WRI) on a WRI row; blank on an OPSD row
+unresolved_rows.csv,fam,fam,ours,[our licence: open point for Paul]
+unresolved_rows.csv,part,part,ours,[our licence: open point for Paul]
+unresolved_rows.csv,tier,tier,ours,[our licence: open point for Paul]
+unresolved_rows.csv,cls,cls,ours,[our licence: open point for Paul]
+unresolved_rows.csv,mw,mw,row,CC BY 4.0 (WRI) on a WRI row; blank on an OPSD row
+unresolved_rows.csv,register_unit,register_unit,id,identifier of the publisher named in source/uid
+unresolved_rows.csv,station,station,unit,dl-de/by-2-0 (MaStR) on a MaStR unit; blank on an OPSD unit
+hard_coal_bridge.csv,EinheitMastrNummer,EinheitMastrNummer,id,identifier of the publisher named in source/uid
+hard_coal_bridge.csv,NameKraftwerk,NameKraftwerk,mastr,"dl-de/by-2-0 (Bundesnetzagentur, MaStR)"
+hard_coal_bridge.csv,NameKraftwerksblock,NameKraftwerksblock,mastr,"dl-de/by-2-0 (Bundesnetzagentur, MaStR)"
+hard_coal_bridge.csv,net_mw,net_mw,mastr,"dl-de/by-2-0 (Bundesnetzagentur, MaStR)"
+hard_coal_bridge.csv,EinheitBetriebsstatus_txt,EinheitBetriebsstatus_txt,mastr,"dl-de/by-2-0 (Bundesnetzagentur, MaStR)"
+hard_coal_bridge.csv,DatumEndgueltigeStilllegung,DatumEndgueltigeStilllegung,mastr,"dl-de/by-2-0 (Bundesnetzagentur, MaStR)"
+hard_coal_bridge.csv,in_service_2025,in_service_2025,ours,[our licence: open point for Paul]
+hard_coal_bridge.csv,s46_market,s46_market,ours,[our licence: open point for Paul]
+hard_coal_bridge.csv,cls,cls,ours,[our licence: open point for Paul]
+hard_coal_bridge.csv,rule,cls_why,ours,[our licence: open point for Paul]
+hard_coal_bridge.csv,kwl_status,kwl_status,dropped,not written
+hard_coal_bridge.csv,a73_cf_2025,a73_cf_2025,dropped,not written
+table.csv,*,fleet_table.py,ours,[our licence: open point for Paul]
+table_by_family.csv,*,fleet_table.py,ours,[our licence: open point for Paul]

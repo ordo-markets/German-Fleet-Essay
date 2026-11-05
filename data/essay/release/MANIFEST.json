@@ -1,0 +1,120 @@
+{
+ "what": "every input of the essay's kit: shipped here, or fetched by the reader, by sha256; licence verdicts from LICENCES.json (retrieved 2026-11-02)",
+ "files": {
+  "inventory_de.csv": {
+   "sha256": "e916de8fee371aa53ba0f980bf838cc0cec56fa1e1c5c72acdea1284cd28b58f",
+   "bytes": 18038,
+   "how": "shipped (snapshot/inputs)"
+  },
+  "global_power_plant_database.csv": {
+   "sha256": "4b1f93e0fd93664f18684d9b05d0a52ed9658c6a8cf0d21ff2520791379ba7fc",
+   "bytes": 11973385,
+   "how": "unzip snapshot/raw/globalpowerplantdatabasev130.zip"
+  },
+  "conventional_power_plants_DE.csv": {
+   "sha256": "111067815dfe8e6452910423394a647079f9fd749285ad7f154349647665896f",
+   "bytes": 317384,
+   "how": "download https://data.open-power-system-data.org/conventional_power_plants/2020-10-01/conventional_power_plants_DE.csv (OPSD states no licence for its data: not shipped)"
+  },
+  "Kraftwerksliste_2026-06-26.xlsx": {
+   "sha256": "ed796691504e72d89520972adb953a758449f22a92b9b87b1a85b86befc912ad",
+   "bytes": 391813,
+   "how": "download https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/Versorgungssicherheit/Erzeugungskapazitaeten/Kraftwerksliste/_DL/Kraftwerksliste.xlsx and rename (licence not established: not shipped; the URL serves the latest edition only)"
+  },
+  "mastr_units_de.csv": {
+   "sha256": "19eaf0d9246198d842b1495c68ae842158ca8a822104bcb128b8bebcda4bf394",
+   "bytes": 234447,
+   "how": "shipped (snapshot/inputs)"
+  },
+  "a73_units_de_2025.csv": {
+   "sha256": "9b533100d939563ca415b7ce3c9f6e9584ccfa5e92df335505f6ebb8e470e5e9",
+   "bytes": 13382,
+   "how": "fetch_a73.py then a73_units.py with your own ENTSO-E token (16.1.A is not on ENTSO-E's free re-use list: not shipped)"
+  },
+  "de_generation_a75_hourly.csv (series)": {
+   "sha256": "ac3cc602312ec1e9d41560c0c0263f12b187e56a8a5d59d74c8a92b117446731",
+   "how": "fetch_a75.py with your own ENTSO-E token (16.1.B&C is not on ENTSO-E's free re-use list: not shipped)"
+  }
+ },
+ "raw": {
+  "globalpowerplantdatabasev130.zip": {
+   "publisher": "World Resources Institute, Global Power Plant Database 1.3.0",
+   "url": "https://datasets.wri.org/datasets/global-power-plant-database",
+   "sha256": "59f3e57312a85eec3c281608e5f3c8f993d8fdad5dde179430dca42f2ac6ce99",
+   "gives": "global_power_plant_database.csv (unzip)",
+   "checked": "2026-10-31: the file served at the URL has this sha256",
+   "licence": "redistributable. Caveat for Paul: the German conventional rows WRI publishes name OPSD as their source (OPSD states no licence, see opsd); the release relies on WRI's own grant for them (LICENCES.json: wri_gppd, retrieved 2026-11-02)"
+  },
+  "conventional_power_plants_DE.csv": {
+   "publisher": "Open Power System Data, conventional power plants, version 2020-10-01",
+   "url": "https://data.open-power-system-data.org/conventional_power_plants/2020-10-01/conventional_power_plants_DE.csv",
+   "sha256": "111067815dfe8e6452910423394a647079f9fd749285ad7f154349647665896f",
+   "checked": "2026-10-31 and 2026-11-02: the file served at the URL has this sha256",
+   "licence": "not established: fetch only. A redistributed file carries an OPSD row's id (its BNA number) and our derived fields, never OPSD's name, capacity, position or status (LICENCES.json: opsd, retrieved 2026-11-02)"
+  },
+  "Kraftwerksliste_2026-06-26.xlsx": {
+   "publisher": "Bundesnetzagentur, Kraftwerksliste, Datenstand 26.06.2026 (its stated source is the Marktstammdatenregister)",
+   "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/Versorgungssicherheit/Erzeugungskapazitaeten/Kraftwerksliste/_DL/Kraftwerksliste.xlsx",
+   "sha256": "ed796691504e72d89520972adb953a758449f22a92b9b87b1a85b86befc912ad",
+   "checked": "2026-10-31 and 2026-11-02 (redirected to ?__blob=publicationFile&v=17): the file served at the URL has this sha256; the URL serves the latest edition, so a later download may differ",
+   "licence": "not established: fetch only. Our classes derived with it are ours; its own status and closure-year values are not shipped. [open point for Paul: ask the Bundesnetzagentur whether 'Version 4.0' means dl-de/by-2-0; a yes moves this input to redistributable] (LICENCES.json: kraftwerksliste, retrieved 2026-11-02)"
+  },
+  "Gesamtdatenexport_20260606.zip": {
+   "publisher": "Bundesnetzagentur, Marktstammdatenregister, Gesamtdatenexport of 2026-06-06",
+   "url": "https://www.marktstammdatenregister.de/MaStR/Datendownload",
+   "sha256": "572fc54c0a1a77ce49061484794b142cbe934babb8c5cd1eb0365fea86a66d15",
+   "bytes": 3019709491,
+   "gives": "mastr_units_de.csv (extract_mastr.py), shipped",
+   "checked": "not re-downloadable: the page serves the current export only; inputs/mastr_units_de.csv is shipped so the table re-runs without it",
+   "licence": "redistributable (LICENCES.json: mastr, retrieved 2026-11-02)"
+  },
+  "Verfahrensliste_inlaendische_Netzreserve_2025-03-10.pdf": {
+   "publisher": "Bundesnetzagentur, Verfahrensliste inländische Netzreserve, 2025-03-10",
+   "url": "https://www.bundesnetzagentur.de/DE/Beschlusskammern/BK08/BK8_07_Kraftwerksth/71_Inlaend_Netzreserve/Downloads/Verfahrensliste%20inl%C3%A4ndische%20Netzreserve_10.03.2025.pdf?__blob=publicationFile&v=6",
+   "sha256": "7367d428732b4bc4a389d64132db6902e95d491b893e3a5e74a36ab29c93bb90",
+   "gives": "transcribed by hand into scripts/essay/rules.json (verfahrensliste_2025_03_10)",
+   "checked": "2026-11-02: the file served at the URL has this sha256",
+   "licence": "redistributable unmodified. [open point for Paul: whether rules.json's transcription (plant names, MaStR unit numbers, designation dates) is adapted material under BY-ND or a statement of facts; the release ships the unmodified PDF beside it so a reader checks the transcription] (LICENCES.json: verfahrensliste_netzreserve, retrieved 2026-11-02)"
+  },
+  "ENTSO-E A73 (16.1.A) 2025, DE_TENNET DE_50HZ DE_AMPRION DE_TRANSNET": {
+   "publisher": "ENTSO-E Transparency Platform, actual generation per generation unit",
+   "url": "https://transparency.entsoe.eu (API; needs the reader's own token)",
+   "gives": "a73_units_de_2025.csv (fetch_a73.py, then a73_units.py); shipped in the repo-side kit, not in release/",
+   "checked": "raw day files are not hashed here (their bytes depend on the library that writes them); the derived per-unit table is",
+   "licence": "not established for redistribution: fetch only (fetch_a73.py, a73_units.py) (LICENCES.json: entsoe, retrieved 2026-11-02)"
+  },
+  "ENTSO-E A68 (14.1.A) installed capacity per production type, DE_LU, 2025": {
+   "publisher": "ENTSO-E Transparency Platform",
+   "url": "https://transparency.entsoe.eu (Generation > Installed Capacity per Production Type, DE-LU, 2025)",
+   "value_used": {
+    "Fossil Hard coal": 15951.0
+   },
+   "checked": "one published number, read off the platform; this kit does not fetch it",
+   "licence": "one published total (hard coal, 15,951 MW) is quoted in the essay and the manifest; no file of it is shipped (LICENCES.json: entsoe, retrieved 2026-11-02)"
+  },
+  "ENTSO-E A75 (16.1.B&C) actual generation per production type, DE_LU, 2025": {
+   "publisher": "ENTSO-E Transparency Platform",
+   "url": "https://transparency.entsoe.eu (API; needs the reader's own token)",
+   "gives": "series/de_generation_a75_hourly.csv (export_series.py from the repo cache; fetch_a75.py from the API gave the same bytes on 2026-11-02)",
+   "licence": "not established for redistribution (needs the Primary Owner's agreement where its rights are at risk): fetch only (fetch_a75.py) (LICENCES.json: entsoe, retrieved 2026-11-02)"
+  },
+  "ENTSO-E 12.1.G physical flows, Germany and its ten neighbours, 2025": {
+   "publisher": "ENTSO-E Transparency Platform",
+   "url": "https://transparency.entsoe.eu (API; needs the reader's own token)",
+   "gives": "actual_physical_mw of series/de_net_export_hourly.csv, shipped",
+   "licence": "redistributable under CC BY 4.0: credit 'ENTSO-E Transparency Platform', indicate changes (the release ships Germany's hourly net position summed from the flows: changed) (LICENCES.json: entsoe, retrieved 2026-11-02)"
+  }
+ },
+ "licence_verdicts": {
+  "mastr": "redistributable",
+  "kraftwerksliste": "not established: fetch only. Our classes derived with it are ours; its own status and closure-year values are not shipped. [open point for Paul: ask the Bundesnetzagentur whether 'Version 4.0' means dl-de/by-2-0; a yes moves this input to redistributable]",
+  "verfahrensliste_netzreserve": "redistributable unmodified. [open point for Paul: whether rules.json's transcription (plant names, MaStR unit numbers, designation dates) is adapted material under BY-ND or a statement of facts; the release ships the unmodified PDF beside it so a reader checks the transcription]",
+  "gem_gipt": "redistributable, but not needed: no GEM data is in any shipped file. Side finding: the repo's own ingest (data/raw/open_sources/gem_gipt_2026_03.parquet) stamps every one of its 182,428 rows CC-BY-4.0 and keeps no column that marks TZ ID rows",
+  "wri_gppd": "redistributable. Caveat for Paul: the German conventional rows WRI publishes name OPSD as their source (OPSD states no licence, see opsd); the release relies on WRI's own grant for them",
+  "opsd": "not established: fetch only. A redistributed file carries an OPSD row's id (its BNA number) and our derived fields, never OPSD's name, capacity, position or status",
+  "entsoe": "split by item, as above",
+  "eutl_dehst": "not an input; recorded for a later version that uses it. The EUTL's own download terms and DEHSt's were not read",
+  "bnetza_bkarta_reports": "not an input",
+  "ours": null
+ }
+}

@@ -1,0 +1,71 @@
+site_rows,sources,rows,rows_mw,register_units,register_mw,ratio,duplicate_mw_in_table,one_source_overlap
+BoA 2; BNA1401a; BNA1401b,gppd_1_3_0+opsd_2020,3,,7,4211.0,,2100.0,
+Gersteinwerk; BNA1039; BNA1040; BNA1041; BNA1042; BNA1043; BNA1044; BNA1045; BNA1046b,gppd_1_3_0+opsd_2020,9,,9,1443.0,,1903.5,opsd_2020
+Hamburg-Moorburg; BNA1558; BNA1673,gppd_1_3_0+opsd_2020,3,,2,1600.0,,1600.0,
+Boxberg power station; BNA0124; BNA1404,gppd_1_3_0+opsd_2020,3,,4,2470.0,,1585.0,
+Schwarze Pumpe power station; BNA0914; BNA0915,gppd_1_3_0+opsd_2020,3,,2,1510.0,,1500.0,
+Emsland; BNA0602; BNA0604; BNA0605; BNA0606,gppd_1_3_0+opsd_2020,5,,9,1877.0,,1420.0,
+Gemeinschaftskraftwerk Irsching; BNA0994; BNA0995,gppd_1_3_0+opsd_2020,3,,5,1722.0,,1091.0,
+Wilmersdorf; BNA0083; BNA0083,gppd_1_3_0+opsd_2020,3,,3,276.0,,,opsd_2020
+Schkopau power station; BNA0878; BNA0879,gppd_1_3_0+opsd_2020,3,,2,900.0,,900.0,
+Trianel Natural Gaskraftwerk; BNA0410; BNA0411,gppd_1_3_0+opsd_2020,3,,2,890.0,,838.0,
+Franken 1; BNA0744; BNA0745,gppd_1_3_0+opsd_2020,3,,3,823.0,,823.0,
+Knapsack Natural Gas I; BNA0548a; BNA0548b,gppd_1_3_0+opsd_2020,3,,4,1310.0,,645.0,
+Staudinger power station; BNA0377,gppd_1_3_0+opsd_2020,2,,3,1064.0,,590.0,
+Berlin-Reuter-West power station; BNA0086; BNA0087,gppd_1_3_0+opsd_2020,3,,3,688.0,,564.0,
+GuD; Natural Gas Turbine #6; Natural Gasblock; BNA0221a; BNA0221b; BNA1817,gppd_1_3_0+opsd_2020,6,,5,1119.4,,510.8,gppd_1_3_0
+Lichterfelde; BNA0075; BNA0076; BNA0080; BNA1935,gppd_1_3_0+opsd_2020,5,,5,732.0,,432.0,
+Altbach power station; BNA0019,gppd_1_3_0+opsd_2020,2,,2,756.0,,336.0,
+GKH Hannover power station; BNA0420; BNA0421,gppd_1_3_0+opsd_2020,3,,2,272.0,,272.0,
+HKW Halle Trotha; BNA0392b,gppd_1_3_0+opsd_2020,2,,2,67.0,,241.8,
+KW Kirchlengern; BNA0531,gppd_1_3_0+opsd_2020,2,,2,121.0,,201.5,
+Thyrow; BNA0734; BNA0735; BNA0736; BNA0737; BNA0738; BNA0739; BNA0740; BNA0741,gppd_1_3_0+opsd_2020,9,,8,299.3,,186.8,opsd_2020
+Ahrensfelde; BNA0005; BNA0006; BNA0007; BNA0008,gppd_1_3_0+opsd_2020,5,,4,148.4,,150.0,
+Heizkraftwerk Gera-Nord; BNA0343,gppd_1_3_0+opsd_2020,2,,1,74.0,,148.0,
+Flensburg power station; BNA0270; BNA0271; BNA0272,gppd_1_3_0+opsd_2020,4,,4,123.8,,137.0,opsd_2020
+GuD-Ikw Staßfurt; BNA0922,gppd_1_3_0+opsd_2020,2,,1,100.0,,132.0,
+HKW Niederrad; BNA0285; BNA0288,gppd_1_3_0+opsd_2020,3,,2,126.0,,126.0,
+HKW West; BNA0289b; BNA0290; HKW West; BNA1868; BNA1937,gppd_1_3_0+opsd_2020,6,,5,292.6,,123.0,"gppd_1_3_0,opsd_2020"
+HKW Sandreuth; BNA0742; BNA0743,gppd_1_3_0+opsd_2020,3,,6,218.7,,115.6,
+Wintershall; BNA0444,gppd_1_3_0+opsd_2020,2,,4,109.6,,109.5,
+HKW Erfurt-Ost; BNA0255,gppd_1_3_0+opsd_2020,2,,1,11.0,,109.1,
+Heizkraftwerke an der Friedensbrücke; BNA1085; BNA1086; BNA1087; BNA1088,gppd_1_3_0+opsd_2020,5,,5,149.5,,101.5,opsd_2020
+Hattorf; Unterbreizbach; BNA1271,gppd_1_3_0+opsd_2020,3,,2,23.3,,85.9,gppd_1_3_0
+Dampfkraftwerk BGH - O1; BNA0172a,gppd_1_3_0+opsd_2020,2,,4,233.9,,81.1,
+GuD Anlage WVK; HKW Freiberg; BNA0293,gppd_1_3_0+opsd_2020,3,,3,69.6,,74.3,gppd_1_3_0
+MiRO; BNA0516; BNA0517,gppd_1_3_0+opsd_2020,3,,6,80.4,,70.0,
+HKW-Mitte; HKW-Nord; BNA0136; BNA1677,gppd_1_3_0+opsd_2020,4,,4,192.2,,64.3,gppd_1_3_0
+Zielitz; BNA1089,gppd_1_3_0+opsd_2020,2,,2,47.6,,52.0,
+Industriepark Werk Gendorf; BNA0174,gppd_1_3_0+opsd_2020,2,,1,72.5,,49.0,
+BNA1097; Natural Gaskraftwerk #1,gppd_1_3_0+opsd_2020,2,,1,14.4,,45.3,
+HKW III/B; BNA0213,gppd_1_3_0+opsd_2020,2,,4,269.4,,39.6,
+Nußdorf; BNA0747,gppd_1_3_0+opsd_2020,2,,2,50.0,,36.6,
+HKW Pfaffenwald; BNA1333a; BNA1333b; BNA1333c,gppd_1_3_0+opsd_2020,4,,2,22.9,,36.0,opsd_2020
+Industriekraftwerk Bernburg (IKB); BNA0088a,gppd_1_3_0+opsd_2020,2,,4,173.7,,36.0,
+Hohenwarte; BNA0465,gppd_1_3_0+opsd_2020,2,,11,407.3,,30.1,
+Kraftwerk Hausham; BNA0427; BNA0428; BNA0429; BNA0430,gppd_1_3_0+opsd_2020,5,,4,92.8,,23.2,opsd_2020
+Heizkraftwerk Stendal; BNA1489,gppd_1_3_0+opsd_2020,2,,1,13.2,,22.0,
+Werkskraftwerk Sappi Alfeld 2; BNA0012b,gppd_1_3_0+opsd_2020,2,,1,11.0,,20.0,
+GHD; BNA1127; BNA1128,gppd_1_3_0+opsd_2020,3,,2,13.4,,13.4,
+PWG; BNA1225; BNA1226,gppd_1_3_0+opsd_2020,3,,2,10.6,,10.6,
+GuD Baunatal  VW Werksgelände; BNA0059a,gppd_1_3_0+opsd_2020,2,,3,86.6,,3.6,
+BNA0681; BNA0682; BNa1947,opsd_2020,3,,4,265.2,,0.0,opsd_2020
+Braunkohlekraftwerk Lippendorf; Lippendorf power station,gppd_1_3_0,2,1750.0,2,1782.0,0.98,0.0,gppd_1_3_0
+Dornau; UPM Schongau,gppd_1_3_0,2,27.1,1,10.9,2.48,0.0,gppd_1_3_0
+Emden Natural Gas; BNA0245b,gppd_1_3_0+opsd_2020,2,,2,485.0,,0.0,
+Heizkraftwerk Altbach/Deizisau (Natural Gas); BNA0016,gppd_1_3_0+opsd_2020,2,,4,248.0,,0.0,
+Kraftwerk Mainz; BNA0627; BNA1056,gppd_1_3_0+opsd_2020,3,,8,836.5,,0.0,
+Kraftwerk III; BNA0658; BNA0659; BNA1676,gppd_1_3_0+opsd_2020,4,,11,508.9,,0.0,
+BNA0498; ADS-Anlage; Heizkraftwerk 2,gppd_1_3_0+opsd_2020,3,,10,420.0,,0.0,gppd_1_3_0
+KWK-Anlage Krefeld DT; KWK-Anlage Krefeld VM,gppd_1_3_0,2,39.8,2,39.7,1.0,0.0,gppd_1_3_0
+Duisburg Hamborn; Duisburg Ruhrort,gppd_1_3_0,2,700.0,6,704.2,0.99,0.0,gppd_1_3_0
+Heizkraftwerk 4; UPM Augsburg,gppd_1_3_0,2,47.0,2,43.3,1.08,0.0,gppd_1_3_0
+HKW Merkenich; HKW Merkenich (Natural Gas); X-Kraftwerk,gppd_1_3_0,3,150.5,4,176.2,0.85,0.0,gppd_1_3_0
+HKW 1; HKW 2,gppd_1_3_0,2,47.6,1,21.4,2.22,0.0,gppd_1_3_0
+GuD-Anlage; BNA1337a,gppd_1_3_0+opsd_2020,2,,3,74.8,,0.0,
+GuD Leuna; ILK-GuD,gppd_1_3_0,2,187.7,3,117.7,1.59,0.0,gppd_1_3_0
+GuD Kraftwerk Hillegossen; BNA0098,gppd_1_3_0+opsd_2020,2,,3,72.0,,0.0,
+Dow Stade; KWK AOS GmbH,gppd_1_3_0,2,203.7,3,220.7,0.92,0.0,gppd_1_3_0
+GTKW Darmstadt; Heizkraftwerk 5,gppd_1_3_0,2,104.6,3,103.0,1.02,0.0,gppd_1_3_0
+GKL; KWH,gppd_1_3_0,2,332.0,3,230.0,1.44,0.0,gppd_1_3_0
+Rheinkraftwerk Säckingen; Säckingen,gppd_1_3_0,2,396.8,4,360.0,1.1,0.0,gppd_1_3_0

@@ -1,0 +1,193 @@
+{
+ "what": "ES1 amendment 1, the licence audit: for every input the essay's kit touches, the publisher's own licence statement, read on the retrieval date, and five answers. Nothing is from memory. A licence the session could not find is 'not established', and that input stays out of every redistributed file.",
+ "retrieved": "2026-11-02",
+ "page_sha256_note": "sha256 of the bytes this session read. HTML pages are generated per request and will not hash the same twice; PDFs and data files are stable.",
+ "questions": ["redistribution", "commercial_use", "attribution", "derived_may_be_sold", "share_alike"],
+ "inputs": {
+  "mastr": {
+   "what": "Marktstammdatenregister, Gesamtdatenexport of 2026-06-06 (Bundesnetzagentur); the kit ships two extracts of it (mastr_units_de.csv, mastr_units_de_nonbattery.csv.gz)",
+   "licence": "Datenlizenz Deutschland – Namensnennung – Version 2.0 (dl-de/by-2-0)",
+   "sources": [
+    {"url": "https://www.marktstammdatenregister.de/MaStR/Datendownload", "http": 200,
+     "sha256": "e40a7255516cfff539187ad2e62958e776bfa5ad7884880acdc94b0e63515a8b",
+     "verbatim": "Lizenz: Datenlizenz Deutschland – Namensnennung – Version 2.0 Nutzungsbedingungen: Link",
+     "note": "printed beside every export on the page (the daily 'Gesamtdatenauszug vom Vortag' and each quarterly export back to 2023); the link goes to https://www.govdata.de/dl-de/by-2-0"},
+    {"url": "https://www.govdata.de/dl-de/by-2-0", "http": 200,
+     "sha256": "fa173d4386b0602d2bc755f3dcb24ab0698b9455dc96e3c10bb1ba6479802d9f",
+     "verbatim": "(1) Any use will be permitted provided it fulfils the requirements of this \"Data licence Germany – attribution – Version 2.0\". The data and meta-data provided may, for commercial and non-commercial use, in particular be copied, printed, presented, altered, processed and transmitted to third parties; be merged with own data and with the data of others and be combined to form new and independent datasets; be integrated in internal and external business processes, products and applications in public and non-public electronic networks. (2) The user must ensure that the source note contains the following information: the name of the provider, the annotation \"Data licence Germany – attribution – Version 2.0\" or \"dl-de/by-2-0\" referring to the licence text available at www.govdata.de/dl-de/by-2-0, and a reference to the dataset (URI). [...] (3) Changes, editing, new designs or other amendments must be marked as such in the source note."}
+   ],
+   "answers": {
+    "redistribution": "yes",
+    "commercial_use": "yes ('for commercial and non-commercial use')",
+    "attribution": "provider name, 'dl-de/by-2-0' with the licence URL, the dataset URI; changes marked as such",
+    "derived_may_be_sold": "yes: may be combined into new datasets and integrated into products",
+    "share_alike": "none"
+   },
+   "verdict": "redistributable"
+  },
+  "kraftwerksliste": {
+   "what": "Bundesnetzagentur Kraftwerksliste, Datenstand 26.06.2026 (xlsx); the file carries no licence mark of its own (its only note is 'Quelle: Marktstammdatenregister Datenstand: 26.06.2026')",
+   "licence": "the BNetzA site rule names 'Datenlizenz Deutschland – Namensnennung – Version 4.0' for its .xls/.xlsx/.csv data; GovData, which publishes the Datenlizenz Deutschland, has no text for a version 4.0 (https://www.govdata.de/dl-de/by-4-0 returned a page with no licence text; its licence page names version 2.0 only)",
+   "sources": [
+    {"url": "https://www.bundesnetzagentur.de/DE/Service/Impressum/start.html", "http": 200,
+     "sha256": "f56bbdcede6146d935e93b6e2d82d8ebbe0690f68da22743cdbf8962b1dfe97f",
+     "verbatim": "An allen Seiten dieses Internetauftritts inklusive Layout, Quelltext, Software und deren Inhalten besitzt die Bundesnetzagentur das Urheberrecht und sonstige Schutzrechte. Urheberrechtshinweise und Markenbezeichnungen dürfen weder verändert noch beseitigt werden. Die auf der Internetseite verwendeten Daten in den Formaten .xls, .xlsx und .csv stehen, falls nicht anders gekennzeichnet, unter der Datenlizenz Deutschland – Namensnennung – Version 4.0. Alle darüber hinausgehenden Handlungen bedürfen einer vorherigen schriftlichen Zustimmung der Bundesnetzagentur."},
+    {"url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/Versorgungssicherheit/Erzeugungskapazitaeten/Kraftwerksliste/start.html", "http": 200,
+     "sha256": "787f68c23e3f7598abdad6017ade597fafd881ca43e77836bd33582322494da5",
+     "verbatim": null, "note": "the list's own page states no licence"},
+    {"url": "https://www.govdata.de/dl-de/by-4-0", "http": 200,
+     "sha256": "66399cc19d75608778517593635ce53082dfaed1f5215699cc18efe90d48acce",
+     "verbatim": null, "note": "navigation only; no licence text"},
+    {"url": "https://www.govdata.de/informationen/lizenzen", "http": 200,
+     "sha256": "ef4b8d25ce795c136790cc35db047eef5ea09eea6d2a51d4b1554baa8a0aa7c5",
+     "verbatim": "Sollte es spezifische Anforderungen geben, die eine Lizenz deutschen Ursprungs erfordern, kann die Datenlizenz Deutschland (DL-DE) in der Version 2.0 verwendet werden."}
+   ],
+   "answers": {
+    "redistribution": "not established: the licence the publisher names has no text the session could find",
+    "commercial_use": "not established",
+    "attribution": "Bundesnetzagentur, Kraftwerksliste (expected under any reading)",
+    "derived_may_be_sold": "not established",
+    "share_alike": "not established"
+   },
+   "verdict": "not established: fetch only. Our classes derived with it are ours; its own status and closure-year values are not shipped. [open point for Paul: ask the Bundesnetzagentur whether 'Version 4.0' means dl-de/by-2-0; a yes moves this input to redistributable]",
+   "fetch": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/Versorgungssicherheit/Erzeugungskapazitaeten/Kraftwerksliste/_DL/Kraftwerksliste.xlsx (on 2026-11-02 it redirected to ?__blob=publicationFile&v=17 and served the 26.06.2026 edition, sha256 ed796691504e...; the URL serves the latest edition only)"
+  },
+  "verfahrensliste_netzreserve": {
+   "what": "Bundesnetzagentur, Verfahrensliste inländische Netzreserve, Stand 10.03.2025 (PDF); transcribed by hand into scripts/essay/rules.json",
+   "licence": "Creative Commons Namensnennung-Keine Bearbeitung 4.0 (CC BY-ND 4.0), the BNetzA site rule for its content; the PDF carries no mark of its own",
+   "sources": [
+    {"url": "https://www.bundesnetzagentur.de/DE/Service/Impressum/start.html", "http": 200,
+     "sha256": "f56bbdcede6146d935e93b6e2d82d8ebbe0690f68da22743cdbf8962b1dfe97f",
+     "verbatim": "Die Inhalte des Internetauftritts stehen, soweit nicht anders gekennzeichnet, unter der Creative Commons Namensnennung-Keine Bearbeitung 4.0 Deutschland Lizenz.",
+     "note": "the link goes to https://creativecommons.org/licenses/by-nd/4.0/deed.de"},
+    {"url": "https://www.bundesnetzagentur.de/DE/Beschlusskammern/BK08/BK8_07_Kraftwerksth/71_Inlaend_Netzreserve/BK8_inlNetzres.html", "http": 200,
+     "sha256": "d7bcd0a763f0814bd44c1b12dcfd330bc37995a303fdf85d4ae883edac684375",
+     "verbatim": "Verfahrensliste inländische Netzreserve (Stand: 10.03.2025)",
+     "note": "the link text; the PDF it serves (/DE/Beschlusskammern/BK08/BK8_07_Kraftwerksth/71_Inlaend_Netzreserve/Downloads/Verfahrensliste%20inl%C3%A4ndische%20Netzreserve_10.03.2025.pdf?__blob=publicationFile&v=6) had sha256 7367d428732b... on 2026-11-02, identical to the kit's copy"}
+   ],
+   "answers": {
+    "redistribution": "yes, unmodified",
+    "commercial_use": "yes (CC BY-ND 4.0 has no non-commercial term)",
+    "attribution": "Bundesnetzagentur, with the licence named",
+    "derived_may_be_sold": "no adapted material may be shared under BY-ND",
+    "share_alike": "none"
+   },
+   "verdict": "redistributable unmodified. [open point for Paul: whether rules.json's transcription (plant names, MaStR unit numbers, designation dates) is adapted material under BY-ND or a statement of facts; the release ships the unmodified PDF beside it so a reader checks the transcription]"
+  },
+  "gem_gipt": {
+   "what": "Global Energy Monitor, Global Integrated Power Tracker, March 2026 (II) release; read only by scripts/essay/gem_beside.py, which is repo-side and reported beside a pre-registration; nothing of GEM is in the kit's inputs, its outputs or the dataset",
+   "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0), stated inside the file; BY, not BY-NC. Exception stated in the same file: rows with a 'TZ ID' (TransitionZero Solar Asset Mapper) are CC BY-NC 4.0",
+   "sources": [
+    {"url": "file: Global-Integrated-Power-March-2026-II.xlsx, sheet 'About' (sha256 18e14321cbc1...)",
+     "verbatim": "Copyright © Global Energy Monitor. Global Integrated Power Tracker, March 2026 release.  Distributed under a Creative Commons Attribution 4.0 International License. | Recommended Citation: \"Global Energy Monitor, Global Integrated Power Tracker, March 2026 release.\"  (See the CC license for attribution requirements if sharing or adapting the data set.) | Please note that records with a “TZ ID” in the Other IDs (unit/phase) column were partially or fully sourced from the TransitionZero, Solar Asset Mapper, August 2025. Copyright © TransitionZero, Solar Asset Mapper, August 2025. Distributed under a Creative Commons Attribution-Non-Commercial 4.0 International License (CC BY-NC 4.0)."},
+    {"url": "https://globalenergymonitor.org/creative-commons-public-license/", "http": 200,
+     "sha256": "ff0cc957a403aac687d040afe04c4055bc350b1de6bd23db68f861220f7b6ff0",
+     "verbatim": "Creative Commons Attribution 4.0 International Public License", "note": "the licence text, hosted by GEM"},
+    {"url": "https://globalenergymonitor.org/projects/global-integrated-power-tracker/download-data/", "http": 200,
+     "sha256": "b31fb3575422af5a64acdd28610815485c52e73c4957ce1ced72a5d6707024d3",
+     "verbatim": "The recommended citation is \"Global Integrated Power Tracker, Global Energy Monitor, September 2026 release.\"",
+     "note": "the page states no licence; its footer reads 'All Rights Reserved'. The file's own statement is taken as governing the file"}
+   ],
+   "answers": {
+    "redistribution": "yes (CC BY 4.0); TZ ID rows only non-commercially",
+    "commercial_use": "yes; not for TZ ID rows",
+    "attribution": "\"Global Energy Monitor, Global Integrated Power Tracker, March 2026 release.\", licence named, changes indicated",
+    "derived_may_be_sold": "yes, except material from TZ ID rows",
+    "share_alike": "none"
+   },
+   "verdict": "redistributable, but not needed: no GEM data is in any shipped file. Side finding: the repo's own ingest (data/raw/open_sources/gem_gipt_2026_03.parquet) stamps every one of its 182,428 rows CC-BY-4.0 and keeps no column that marks TZ ID rows"
+  },
+  "wri_gppd": {
+   "what": "World Resources Institute, Global Power Plant Database 1.3.0 (zip, sha256 59f3e57312a8...)",
+   "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "sources": [
+    {"url": "file: globalpowerplantdatabasev130.zip, README.txt (as published by WRI)",
+     "verbatim": "License: Creative Commons Attribution 4.0 International -- CC BY 4.0"},
+    {"url": "https://raw.githubusercontent.com/wri/global-power-plant-database/master/README.md", "http": 200,
+     "sha256": "9d2661ad16d7abde0e2cf64aa78034824e6249357c977109eb84bf16cc65f1b9",
+     "verbatim": "The latest database release (v1.3.0) is available in CSV format [here](http://datasets.wri.org/dataset/globalpowerplantdatabase) under a [Creative Commons-Attribution 4.0 (CC BY 4.0) license](https://creativecommons.org/licenses/by/4.0/)."}
+   ],
+   "answers": {
+    "redistribution": "yes",
+    "commercial_use": "yes",
+    "attribution": "World Resources Institute, Global Power Plant Database 1.3.0, CC BY 4.0, changes indicated",
+    "derived_may_be_sold": "yes",
+    "share_alike": "none"
+   },
+   "verdict": "redistributable. Caveat for Paul: the German conventional rows WRI publishes name OPSD as their source (OPSD states no licence, see opsd); the release relies on WRI's own grant for them"
+  },
+  "opsd": {
+   "what": "Open Power System Data, Data Package Conventional power plants, version 2020-10-01, conventional_power_plants_DE.csv (sha256 111067815dfe...)",
+   "licence": "none stated for the data; an attribution line only",
+   "sources": [
+    {"url": "https://data.open-power-system-data.org/conventional_power_plants/2020-10-01/datapackage.json", "http": 200,
+     "sha256": "fd3a562d45790c36a6aa6ea551b914d244869269fc3fb83d5dae20b747654c4f",
+     "verbatim": "\"attribution\": \"Attribution should be given as follows: Open Power System Data. 2020. Data Package Conventional power plants. Version 2020-10-01. https://doi.org/10.25832/conventional_power_plants/2020-10-01. (Primary data from various sources, for a complete list see URL).\"",
+     "note": "the package has no 'license' field"},
+    {"url": "https://data.open-power-system-data.org/conventional_power_plants/2020-10-01/README.md", "http": 200,
+     "sha256": "6a15778db020febb664e44f3a95616ff4e72b77b31d7a5606530d701ecf3469c",
+     "verbatim": "License and attribution [...] Attribution: Attribution should be given as follows: Open Power System Data. 2020. Data Package Conventional power plants. Version 2020-10-01. https://doi.org/10.25832/conventional_power_plants/2020-10-01. (Primary data from various sources, for a complete list see URL).",
+     "note": "the section titled 'License and attribution' names no licence"},
+    {"url": "https://open-power-system-data.org/", "http": 200,
+     "sha256": "2b51eda6ee72d73acd28cf7f99ac9208b7c54b03759ce3cf524d6d6d9e6479fa",
+     "verbatim": "We would like to publish all data under a Creative Commons Attribution license, an open license that allows any use and derivative work. However, at this point, several data owners do not allow us to do so. Beware that some data published here might be subject to copyright."}
+   ],
+   "answers": {
+    "redistribution": "not established",
+    "commercial_use": "not established",
+    "attribution": "the line above (requested by OPSD)",
+    "derived_may_be_sold": "not established",
+    "share_alike": "not established"
+   },
+   "verdict": "not established: fetch only. A redistributed file carries an OPSD row's id (its BNA number) and our derived fields, never OPSD's name, capacity, position or status",
+   "fetch": "https://data.open-power-system-data.org/conventional_power_plants/2020-10-01/conventional_power_plants_DE.csv (versioned; on 2026-11-02 it served sha256 111067815dfe...)"
+  },
+  "entsoe": {
+   "what": "ENTSO-E Transparency Platform: 16.1.A actual generation per unit (A73), 16.1.B&C actual generation per production type (A75), 14.1.A installed capacity per production type (A68, one number quoted), 12.1.G physical flows",
+   "licence": "General Terms and Conditions for the use of the ENTSO-E Transparency Platform (approved 29 March 2023, applicable from 1 November 2023) with its List of Data available for free re-use (last modified 18 October 2023): the listed data under CC BY 4.0; other data re-usable only without prejudice to the Primary Owner of Data's rights, else with its prior agreement",
+   "sources": [
+    {"url": "https://transparencyplatform.zendesk.com/api/v2/help_center/en-us/articles/40921911218961.json (the 'Legal Terms and Conditions' article; the HTML page refused this session with 403)", "http": 200,
+     "sha256": "49920c118a7c0d478e84b74a6e21fce9977734a258c1b0bf529653566be245ea",
+     "verbatim": "Pursuant to clause 2.5 of the Terms of Use, ENTSO-E publishes the list of data which is open for free re-use with no need to seek the prior agreement of the respective Primary Owner of Data. [...] 18/02/2022 : In this version, the following was added: incorporation of Creative Commons Attribution 4.0 International License (CC-BY 4.0) on the list of data"},
+    {"url": "https://transparencyplatform.zendesk.com/hc/article_attachments/40921869376401 (230329_ENTSOE_Transparency_Terms_Conditions_MC_APPROVED.pdf)", "http": 200,
+     "sha256": "665d08621f711e3c0971581b15b2572e69054d4a017f693e32c20924d476352b",
+     "verbatim": "2.5 Open Source License. ENTSO-E currently publishes a subset of the Transparency Platform data available under an open source license (CC-BY 4.0) for the free use of Data Users (hereinafter ''Open Data''). [...] 3.1 Use of the Transparency Platform Data. In accordance with the applicable legislation, the Data User shall, when using of the Transparency Platform Data for any purpose whatsoever: - use the Transparency Platform Data in good faith [...]; - mention the ENTSO-E Transparency Platform as the source of publication of the data [...]; - [...] It is therefore expressly prohibited to use the ENTSO-E Transparency Platform name or the ENTSO-E name in any manner that is likely to cause confusion regarding the possible existence of any kind of sponsorship or of endorsement [...]; - not cause prejudice to the copyright or related right on a Transparency Platform Data, which may be owned by the concerned Primary Owner of Data. In case of a risk to cause prejudice to said right, the Data User shall seek the prior agreement of the holder of the copyright or related right. Notwithstanding this requirement, as a facilitation for the Data User, ENTSO-E publishes on the Transparency Platform and regularly updates the list of the Transparency Platform Data which can be freely re-used with no need to seek for the prior agreement of the respective Primary Owner of Data. The Data User has responsibility to check this list before each re-use of the Transparency Platform Data."},
+    {"url": "https://transparencyplatform.zendesk.com/hc/article_attachments/40921869379729 (231018_List_of_Data_available_for_reuse.pdf)", "http": 200,
+     "sha256": "b21717e8a5a41b9b8544db730d11c2a717abc9b07f89704437a89332b708ff9a",
+     "verbatim": "Last modified: 18 October 2023. LIST OF DATA AVAILABLE FOR FREE RE-USE. Pursuant to Article 2.5 of the General Terms and Conditions of Use of ENTSO-E Transparency Platform, ENTSOE below publishes the list of data which can be freely re-used by the Data Users in conformity with the open data standards and licenses under a Creative Commons Attribution 4.0 International License (CC-BY 4.0). Data Users may freely copy, redistribute, and adapt the listed data for any purpose, by giving appropriate credit (attribution) to its source and indicating if they have made any changes, with no need to seek for the prior agreement of the respective Primary Owner of Data. [...] 18 Physical flows n.a n.a 12.1.g",
+     "note": "the list's 35 items cover load forecasts (6.1.b-e), grid and capacity items (9-12), physical flows (12.1.g), redispatch and balancing (13, 17, and the EB and SO regulations). It does not list 6.1.a, 14.1.a, 16.1.a or 16.1.b&c"}
+   ],
+   "items": {
+    "12.1.G physical flows": {"on_free_list": true, "verdict": "redistributable under CC BY 4.0: credit 'ENTSO-E Transparency Platform', indicate changes (the release ships Germany's hourly net position summed from the flows: changed)"},
+    "16.1.B&C A75 generation per production type": {"on_free_list": false, "verdict": "not established for redistribution (needs the Primary Owner's agreement where its rights are at risk): fetch only (fetch_a75.py)"},
+    "16.1.A A73 generation per unit": {"on_free_list": false, "verdict": "not established for redistribution: fetch only (fetch_a73.py, a73_units.py)"},
+    "14.1.A A68 installed capacity per production type": {"on_free_list": false, "verdict": "one published total (hard coal, 15,951 MW) is quoted in the essay and the manifest; no file of it is shipped"}
+   },
+   "answers": {
+    "redistribution": "12.1.G yes (CC BY 4.0); A73, A75, A68 not established",
+    "commercial_use": "12.1.G yes ('for any purpose'); the others: §3.1 allows use 'for any purpose whatsoever' only without prejudice to the Primary Owner's rights",
+    "attribution": "'ENTSO-E Transparency Platform' as the source of publication; changes indicated; no suggestion of ENTSO-E sponsorship or endorsement",
+    "derived_may_be_sold": "12.1.G-derived yes; derived from A73/A75: our statistics (ratios, annual totals by fuel, classes) are ours, unit- or hour-level values are not shipped",
+    "share_alike": "none"
+   },
+   "verdict": "split by item, as above"
+  },
+  "eutl_dehst": {
+   "what": "EU Transaction Log / DEHSt: named in the amendment's list; not read by any kit script (grep of scripts/essay/) and not quoted in the essay",
+   "sources": [
+    {"url": "https://commission.europa.eu/legal-notice_en", "http": 200,
+     "sha256": "12b893cdf2ebbd3b96e2c32063db530884cede4cda151b59737c01179fe8461c",
+     "verbatim": "Unless otherwise indicated (e.g. in individual copyright notices), content owned by the EU on this website is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence. This means that reuse is allowed, provided appropriate credit is given and changes are indicated."}
+   ],
+   "verdict": "not an input; recorded for a later version that uses it. The EUTL's own download terms and DEHSt's were not read"
+  },
+  "bnetza_bkarta_reports": {
+   "what": "Bundesnetzagentur / Bundeskartellamt reports: none is quoted in the essay or read by the kit (grep), beyond the two BNetzA publications above",
+   "verdict": "not an input"
+  },
+  "ours": {
+   "what": "the inventory list (ids), the rules, the scripts, the crosswalk and classes, the model series",
+   "licence": "[open point for Paul: recommended CC BY 4.0 for the data and MIT for the scripts; both carry every input's attribution line]"
+  }
+ }
+}

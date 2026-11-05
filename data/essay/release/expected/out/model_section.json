@@ -1,0 +1,92 @@
+{
+ "hours": 8679,
+ "inventory_twh_before": 227.53,
+ "not_in_market_mw": 37479.9,
+ "not_in_market_twh_before": 96.49,
+ "not_in_market_share_of_inventory_twh": 0.424,
+ "domestic_price_setting_hours_before": 3332,
+ "not_in_market_price_setting_hours_before": 1442.4,
+ "not_in_market_by_class_twh_before": {
+  "out_2025": 7.39,
+  "closed_pre_2025": 25.26,
+  "duplicate": 63.85
+ },
+ "twh": {
+  "actual_a75": {
+   "lignite": 66.527,
+   "hard_coal": 27.904,
+   "gas": 60.091
+  },
+  "model_after": {
+   "lignite": 90.868,
+   "hard_coal": 31.196,
+   "gas": 58.613
+  },
+  "model_before": {
+   "lignite": 106.898,
+   "hard_coal": 50.076,
+   "gas": 55.071
+  },
+  "model_de_only": {
+   "lignite": 89.62,
+   "hard_coal": 29.247,
+   "gas": 52.163
+  }
+ },
+ "ratio_to_a75": {
+  "model_before": {
+   "lignite": 1.607,
+   "hard_coal": 1.795,
+   "gas": 0.916
+  },
+  "model_de_only": {
+   "lignite": 1.347,
+   "hard_coal": 1.048,
+   "gas": 0.868
+  },
+  "model_after": {
+   "lignite": 1.366,
+   "hard_coal": 1.118,
+   "gas": 0.975
+  }
+ },
+ "net_position_hours": 8679,
+ "net_position_twh_per_year": {
+  "model_before": 4.58,
+  "model_de_only": -36.59,
+  "model_after": -26.46,
+  "actual_physical": -23.91
+ },
+ "price_setter_hours": {
+  "before": {
+   "border": 5347,
+   "gas": 1283,
+   "hard_coal": 1064,
+   "lignite": 851,
+   "solar": 120,
+   "oil": 7,
+   "hydro": 6,
+   "wind": 1
+  },
+  "de_only": {
+   "border": 6184,
+   "gas": 1105,
+   "lignite": 763,
+   "hard_coal": 490,
+   "solar": 118,
+   "oil": 11,
+   "hydro": 7,
+   "wind": 1
+  },
+  "after": {
+   "border": 6063,
+   "gas": 1259,
+   "lignite": 711,
+   "hard_coal": 509,
+   "solar": 115,
+   "oil": 14,
+   "hydro": 6,
+   "wind": 2
+  }
+ }
+}
